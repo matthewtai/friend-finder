@@ -1,0 +1,66 @@
+ body {
+ 	margin: 0px auto;
+ 	display: flex;
+ 	min-height: 100vh;
+	 flex-direction: column;
+ }
+
+ main h1 {
+ 	font-weight: bold;
+ }
+
+ main h2 {
+ 	font-weight: 300;
+ }
+
+ #logo-icon {
+ 	margin-left: 30px;
+ 	margin-top: 20px;
+ }
+
+ #logo {
+ 	margin-left: 30px;
+ 	margin-top: 20px;
+ }
+
+ #head-nav-links {
+ 	margin-right: 50px;
+ 	margin-top: 20px;
+ }
+
+ .mainpanel {
+	 margin: 50px;
+	 z-index: 1;
+ }
+
+ #mainpanel-content {
+ 	margin: 50px;
+ }
+
+ html,
+ body {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ html,
+ body {
+ 	height: 100%
+ }
+
+ body {
+ 	background-color: rgb(255, 249, 249);
+ }
+
+
+
+ .background {
+	height:100%;
+	width: 100%;
+ 	position: absolute;
+ 	top: 0;
+ 	bottom: 0;
+ 	left: 0;
+ 	right: 0;
+ 	z-index: -1;
+ }
